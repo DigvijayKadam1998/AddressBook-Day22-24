@@ -3,7 +3,6 @@ package com.bridgelabz.addressbook;
 public class AddressBook {
 	private String firstName, lastName, address, city, state, zip, phoneNumber, email;
 
-
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
@@ -11,7 +10,7 @@ public class AddressBook {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	
+
 	public void setAddress(String address) {
 		this.address = address;
 	}
@@ -27,7 +26,7 @@ public class AddressBook {
 	public void setZip(String zip) {
 		this.zip = zip;
 	}
-	
+
 	public void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
 	}
@@ -36,17 +35,42 @@ public class AddressBook {
 		this.email = email;
 	}
 
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public String getState() {
+		return state;
+	}
+
+	public String getZip() {
+		return zip;
+	}
+
+	public String getPhoneNumber() {
+		return phoneNumber;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
 	@Override
 	public String toString() {
-		return "AddressBook{" +
-				"firstName='" + firstName + '\'' +
-				", lastName='" + lastName + '\'' +
-				", address='" + address + '\'' +
-				", city='" + city + '\'' +
-				", state='" + state + '\'' +
-				", zip='" + zip + '\'' +
-				", phoneNumber='" + phoneNumber + '\'' +
-				", email='" + email + '\'' +
-				'}';
+		return "AddressBook{" + "firstName='" + firstName + '\'' + ", lastName='" + lastName + '\'' + ", address='"
+				+ address + '\'' + ", city='" + city + '\'' + ", state='" + state + '\'' + ", zip='" + zip + '\''
+				+ ", phoneNumber='" + phoneNumber + '\'' + ", email='" + email + '\'' + '}';
 	}
 }
